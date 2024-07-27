@@ -1,0 +1,28 @@
+div.list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+}
+
+div.list > * {
+  width: 100px;
+}
+
+div.node {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+
+  background-color: bisque;
+  padding: 5px;
+  margin: 5px;
+}
+
+div.children {
+  display: flex;
+  gap: 10px;
+  background-color: aliceblue;
+  justify-content: center;
+}
