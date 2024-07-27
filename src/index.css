@@ -1,0 +1,14 @@
+div.node {
+  display: flex;
+  flex-direction: column;
+  background-color: lightyellow;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+}
+
+div.children {
+  display: flex;
+  background-color: burlywood;
+  gap: 10px;
+}
